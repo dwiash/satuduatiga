@@ -1,5 +1,9 @@
 <?php get_header(); ?>
 
+
+
+	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+
 				<ul id="topNav">
 				  <li>
 		        <?php previous_post_link('<span id="navPrev" > %link </span>', '<span class="navText" title="%title">%title</span>') ?>
@@ -20,5 +24,20 @@
 				<h2><?php the_title(); ?></h2>
 
 				<?php the_content(); ?>
+				
+				
+	<?php endwhile; else: ?>
+	      <div id="error-404">
+	        THE <br />
+	        REQUESTED <br />
+	        PAGE <br />
+	        WAS <br />
+	        NOT <br />
+	        FOUND!
+	      </div>
+	  
+
+<?php endif; ?>				
+				
 
 <?php get_footer(); ?>

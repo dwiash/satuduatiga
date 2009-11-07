@@ -290,3 +290,13 @@ h1, h2, h3 ,h4, h5, h6{
 	padding: 10px;
 	float: left;
 }
+
+
+
+
+#error-404{
+  font-size: 64px;
+ 	color: #fff;
+	background-color: #e05;
+	padding: 20px;
+}
