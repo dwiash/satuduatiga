@@ -163,6 +163,12 @@ h1, h2, h3 ,h4, h5, h6{
   color: #999;
 }
 
+#M ul#TOC li .commentCount a{
+  color: #999;
+}
+
+
+
 #M h2{
   padding: 15px 0;
 	margin: 0;

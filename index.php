@@ -16,7 +16,7 @@
 									  </a>
 									  <span class="commentCount">
 									    &#8212; 
-									    <?php comments_popup_link('No Comments &#187;', '1 Comment &#187;', '% Comments &#187;'); ?>
+									    <?php comments_popup_link('No Comments', '1 Comment', '% Comments'); ?>
 								    </span>
 									</span>
 					</li>
