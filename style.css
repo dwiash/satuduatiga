@@ -1,0 +1,292 @@
+/*
+Theme Name: Satuduatiga
+Theme URI: http://dwiasharialdy.net/
+Description: my wordpress theme
+Version: 0.1
+Author: Dwi Asharialdy Hambali
+Author URI: http://dwiasharialdy.net/
+Tags: blue, custom header, fixed width, two columns, widgets
+
+*/
+
+
+
+
+
+
+body{
+	padding: 0;
+	margin: 0;
+	font-size: 12px;
+	font-family: 	Georgia,serif;
+	color: #333;
+	background-image: url(images/bg.png);
+	background-position: top left;
+	background-repeat: repeat-y;
+}
+
+p{
+	line-height: 18px;
+	font-size: 13px;
+}
+
+a{
+	text-decoration: none;
+	color: #e05;
+	
+}
+
+
+
+a:hover{
+	color: #fff;
+	background-color: #e05;
+}
+
+
+h1, h2, h3 ,h4, h5, h6{
+	font-family:	Georgia,serif;	
+	font-weight:normal;
+}
+
+
+
+#WRAP{
+	width: 1150px;
+}
+
+
+#L{
+	background-color: #E4E2D3;
+	width: 230px;
+	padding: 10px;
+	float: left;
+}
+
+
+#L .content{
+	padding: 20px;
+}
+
+#L h1{
+	margin: 0;
+	padding: 0;
+	font-size: 24px;
+	font-weight: normal;	
+}
+
+#L h1 a{
+	background-color: #e05;
+	color: #fff;
+	font-style: italic;
+	padding-left: 3px;
+	padding-right: 3px;
+	
+}
+
+#L h1 a:hover{
+	background-color: #333;
+}
+
+
+#L p{
+	font-size: 11px;
+}
+
+
+#L span#license a{
+	padding: 1px 5px;
+	color: #fff;
+	background-color: #333;
+}
+
+#L span#license a:hover{
+	background-color: #e05;
+}
+
+
+
+#M{
+	width: 580px;
+	padding: 10px;
+	float: left;
+}
+
+
+#M .content{
+	background-color: #fff;
+	color: #000;
+	padding: 20px 10px 0px 10px;
+}
+
+#M ul#TOC{
+	display: block;
+  margin:0;
+  padding:5px 0;
+	list-style: none;
+	clear: both;
+}
+
+#M ul#TOC li{
+	display: block;
+	padding: 10px 0;
+	list-style: none;
+	clear: both;
+}
+
+#M ul#TOC li .postDate{
+	background-color: #666;
+	display: block;
+	float: left;
+	color: #fff;
+	font-size: 10px;
+	padding: 2px 4px;
+	margin: 4px 0 0 5px;
+	font-family: monospace;
+}
+
+#M ul#TOC li .postTitle{
+	float: right;
+	width: 475px;
+	font-size: 20px;
+	text-decoration: none;
+}
+
+#M ul#TOC li .postTitle a:hover{
+	background-color: #fff;
+	color: #000;
+}
+
+#M ul#TOC li .commentCount{
+  font-size: 10px;
+  font-style: italic;
+  color: #999;
+}
+
+#M h2{
+  padding: 15px 0;
+	margin: 0;
+	font-size: 32px;
+	color: #e05 ;
+	clear: both;
+}
+
+#M ul#topNav{
+  display: block;
+  padding:0;
+  margin:0;
+  float: right;
+  list-style: none;
+}
+
+#M ul#topNav li{
+  display: block;
+  float: left;
+  padding:0 0 0 1px;
+  margin:0;
+  list-style: none;
+}
+
+#M ul#topNav li a{
+  display: block;
+  height: 30px;
+  width: 30px;
+  background-color: #333;
+}
+
+#M ul#topNav li a#navPrev{
+	background-image: url(images/nav.png);
+	background-position: top left;
+	background-repeat: no-repeat;
+}
+
+#M ul#topNav li a#navHome{
+	background-image: url(images/nav.png);
+	background-position: top center;
+	background-repeat: no-repeat;
+}
+
+#M ul#topNav li a#navNext{
+	background-image: url(images/nav.png);
+	background-position: top right;
+	background-repeat: no-repeat;
+}
+
+#M ul#topNav li a#navPrev:hover{
+	background-position: bottom left;
+}
+
+#M ul#topNav li a#navHome:hover{
+	background-position: bottom center;
+}
+
+#M ul#topNav li a#navNext:hover{
+	background-position: bottom right;
+}
+
+
+
+
+#M ul#topNav li span.navText{
+  display: none;
+}
+
+#M #date{
+	background-color: #999;
+	color:#fff;
+	margin: 0;
+	font-size: 12px;
+	display: block;
+	float: left;
+	padding: 7px;
+	font-family: Georgia;
+	font-style: italic;
+	font-weight: bold;
+}
+
+#M p{
+	text-align: justify;
+	padding: 0;
+	margin: 0 0 10px 0;
+	line-height: 20px;
+}
+
+#M .wp-caption{
+  padding:0;
+  margin: 0 0 10px 0;
+  background-color: #333;
+  text-align: center; 
+}
+
+#M .wp-caption img{
+  padding: 0;
+  margin: 0;
+  border: solid 5px #333;
+}
+
+#M .wp-caption p{
+  padding: 5 10px 10px 10px;
+  margin:0;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  color: #fff;
+}
+
+#M pre{
+  background-color: #555;
+  color: #fff;
+  display: block;
+  padding: 10px;
+
+}
+
+#M code{
+  background-color: #ff0;
+}
+
+#R{
+	width: 280px;
+	padding: 10px;
+	float: left;
+}
