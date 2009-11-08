@@ -261,8 +261,19 @@ h1, h2, h3 ,h4, h5, h6{
 #M p{
 	text-align: justify;
 	padding: 0;
-	margin: 0 0 10px 0;
+	margin: 2px 0 18px 0;
 	line-height: 20px;
+	color: #333333;
+}
+
+#M p a{
+  border-bottom: dotted 1px #EE0055;
+  color: #EE0055;
+}
+
+#M p a:hover{
+  border-bottom: none 0px;
+  color: #fff;
 }
 
 #M .wp-caption{
@@ -429,18 +440,21 @@ h1, h2, h3 ,h4, h5, h6{
   font-size: 12px;
   text-align: left;
   color: #fff;
+  line-height: 16px;
+  margin: 2px 0 12px 0;
 }
 
 
 
 #comment_container ol.commentlist li.comment .comment-content a{
-  background-color:#444;
+  border-bottom: dotted 1px #EE0055;
   color: #fff;
 }
 
 #comment_container ol.commentlist li.comment .comment-content a:hover{
   background-color:#EE0055;
   color: #fff;
+  border-bottom: none 0px;
 }
 
 
@@ -465,6 +479,7 @@ h1, h2, h3 ,h4, h5, h6{
 
 #comment_container #respond p{
   padding: 0;
+  color: #fff;
 }
 
 #comment_container #respond a{
