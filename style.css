@@ -197,36 +197,44 @@ h1, h2, h3 ,h4, h5, h6{
   display: block;
   height: 30px;
   width: 30px;
-  background-color: #333;
 }
 
-#M ul#topNav li a#navPrev{
+#M ul#topNav li a span#navPrev{
 	background-image: url(images/nav.png);
 	background-position: top left;
 	background-repeat: no-repeat;
+  display: block;
+  height: 30px;
+  width: 30px;
 }
 
-#M ul#topNav li a#navHome{
+#M ul#topNav li a span#navHome{
 	background-image: url(images/nav.png);
 	background-position: top center;
 	background-repeat: no-repeat;
+  display: block;
+  height: 30px;
+  width: 30px;
 }
 
-#M ul#topNav li a#navNext{
+#M ul#topNav li a span#navNext{
 	background-image: url(images/nav.png);
 	background-position: top right;
 	background-repeat: no-repeat;
+  display: block;
+  height: 30px;
+  width: 30px;
 }
 
-#M ul#topNav li a#navPrev:hover{
+#M ul#topNav li a:hover span#navPrev{
 	background-position: bottom left;
 }
 
-#M ul#topNav li a#navHome:hover{
+#M ul#topNav li a:hover span#navHome{
 	background-position: bottom center;
 }
 
-#M ul#topNav li a#navNext:hover{
+#M ul#topNav li a:hover span#navNext{
 	background-position: bottom right;
 }
 

@@ -3,20 +3,24 @@
 
 
 	<?php if (have_posts()) : while (have_posts()) : the_post(); ?>
+	      
+	      <?php posts_nav_link('sep','prelabel','nxtlabel'); ?>
 
 				<ul id="topNav">
 				  <li>
-		        <?php previous_post_link('<span id="navPrev" > %link </span>', '<span class="navText" title="%title">%title</span>') ?>
+		        <?php previous_post_link('%link', '<span title="(PREVIOUS) %title" id="navPrev" ><span class="navText">%title</span></span>') ?>
 	        </li>
+	        
+          <li>
+            <a href="<?php bloginfo('home'); ?>/">
+              <span id="navHome" title="Blog Index">
+                <span class="navText">Blog Index</span>
+              </span>
+            </a>	        
+          </li>	        
+	        
 				  <li>
-				    <a id="navHome" href="<?php bloginfo('home'); ?>" title="Blog Index">
-				      <span class="navText">
-  				      Blog Index
-				      </span>
-				    </a>
-				  </li>
-				  <li>
-		        <?php next_post_link('<span id="navNext" > %link </span>', '<span class="navText" title="%title">%title</span>') ?>
+		        <?php next_post_link('%link', '<span title="(NEXT) %title" id="navNext" ><span class="navText">%title</span></span>') ?>
 				  </li>
 				</ul>
 				
