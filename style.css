@@ -332,10 +332,26 @@ h1, h2, h3 ,h4, h5, h6{
 
 /*** KOMENTAR ***/
 
+
+#comment_container{
+  padding: 25px 0;
+}
+
+#comment_container h3#comment-head{
+  background-color: #EE0055;
+  font-size: 16px;
+  padding: 10px;
+  display: block;
+  color: #fff;
+  margin: 0 0 5px 0;
+  float: left;
+}
+
 #comment_container ol.commentlist{
   display: block;
-  margin: 20px 0 0 0;
   padding: 0;
+  margin: 0;
+  clear: both;
 }
 
 #comment_container ol.commentlist li.comment{
@@ -366,6 +382,11 @@ h1, h2, h3 ,h4, h5, h6{
   padding: 20px;
   margin-right: 65px;
   background-color: #555;
+}
+
+#comment_container ol.commentlist li.comment .comment-wrap.me{
+  padding-left: 10px;
+  border-left: solid 10px #333;
 }
 
 #comment_container ol.commentlist li.comment .comment-author{
@@ -415,10 +436,43 @@ h1, h2, h3 ,h4, h5, h6{
 }
 
 
+#comment_container #respond{
+  padding: 20px;
+  margin-right: 65px;
+  background-color: #555;
+  color: #fff;
+  clear: both;
+}
+
+#comment_container #respond h3{
+  display: block;
+  margin: 0;
+  padding: 0 0 10px 0;
+  font-weight: bold;
+}
+
+#comment_container #respond label{
+  padding: 0 5px;
+}
+
+#comment_container #respond p{
+  padding: 0;
+}
+
+#comment_container #respond #author,
+#comment_container #respond #email,
+#comment_container #respond #url{
+  background-color: #fff;
+  border: none 0px;
+  padding: 5px;
+}
 
 
-
-
+#comment_container #respond textarea#comment{
+  background-color: #fff;
+  border: none 0px;
+  width: 450px;
+}
 
 
 

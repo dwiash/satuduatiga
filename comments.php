@@ -17,17 +17,18 @@
 
 <!-- You can start editing here. -->
 
+<h3 id="comment-head"><?php comments_number('No Responses', 'One Response', '% Responses' );?> to &#8220;<?php the_title(); ?>&#8221;</h3>
+
 <?php if ( have_comments() ) : ?>
-
-	<ol class="commentlist">
-	<?php wp_list_comments('callback=mytheme_comment'); ?>
-
-	</ol>
-
 	<div class="navigation">
 		<div class="alignleft"><?php previous_comments_link() ?></div>
 		<div class="alignright"><?php next_comments_link() ?></div>
 	</div>
+
+	<ol class="commentlist">
+  	<?php wp_list_comments('callback=mytheme_comment'); ?>
+	</ol>
+
  <?php else : // this is displayed if there are no comments so far ?>
 
 	<?php if ( comments_open() ) : ?>

@@ -13,7 +13,9 @@ function mytheme_comment($comment, $args, $depth) {
       
       <div class="comment-pointer">&nbsp;</div>
       
-      <div class="comment-wrap">
+      <div class="comment-wrap<?php if(get_comment_author_email()=='dwiasharialdy@gmail.com'){ print(' me'); }?>" >
+      
+
      
         <div class="comment-author vcard">
            <?php printf(__('<span class="fn">%s</span>'), get_comment_author_link()) ?>
