@@ -28,14 +28,16 @@
 				<div class="content">
 					<h1><a href="<?php bloginfo('home'); ?>"><?php bloginfo('name'); ?></a></h1>
 					<p>
-						Adalah seorang mahasiswa tingkat akhir, freelance web developer dan (kalo lagi bener-bener-bener mood) bloger.
+						Adalah seorang mahasiswa tingkat akhir pada <a href="http://cs.upi.edu">Program Study Ilmu Komputer UPI Bandung</a>, freelance web developer dan <em>kalo-lagi-bener-bener-bener-mood</em> bloger.
 					</p>
 					<p>
-						Anda dapat mengikuti aktifitas saya di <a href="http://facebook.com/dwiasharialdy">Facebook</a> atau <a href="http://twitter.com/dwiasharialdy">Twitter</a>.
-						Atau mengunjungi <em>source code repository</em> saya di <a href="http://github.com/dwiasharialdy">Github</a>.
+						Anda dapat melihat biodata serta <em>CV</em> saya di <a href="#">LinkedIn</a>. 
+						Mengikuti aktifitas saya di <a href="http://facebook.com/dwiasharialdy">Facebook</a> atau <a href="http://twitter.com/dwiasharialdy">Twitter</a>.
+						Melihat <em>bookmark</em> saya melalui <a href="http://diigo.com/user/dwiasharialdy">Diigo</a>.
+						Atau mengunjungi repositori kode program saya di <a href="http://github.com/dwiasharialdy">Github</a>.
 					</p>
 					<p>
-						Namun cara terbaik untuk menghubungi saya adalah melalui <a href="mailto:dwiasharialdy@gmail.com">e-mail</a>.
+						Namun cara terbaik untuk menghubungi saya adalah melalui <a href="mailto:dwiasharialdy@gmail.com">email</a>.
 					</p>
 					<hr />
 					<p>
