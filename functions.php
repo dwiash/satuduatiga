@@ -8,7 +8,7 @@ function mytheme_comment($comment, $args, $depth) {
      <div id="comment-<?php comment_ID(); ?>">
      
       <div class="comment-avatar">
-         <?php echo get_avatar($comment,$size='50',$default='<path_to_url>' ); ?>
+         <?php echo get_avatar($comment,$size='50' ); ?>
       </div>
       
       <div class="comment-pointer">&nbsp;</div>

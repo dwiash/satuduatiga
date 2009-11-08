@@ -368,7 +368,7 @@ h1, h2, h3 ,h4, h5, h6{
 
 #comment_container ol.commentlist li.comment .comment-pointer{
   position: absolute;
-  margin: 40px 0 0 495px;
+  margin: 35px 0 0 495px;
   height: 30px;
   width: 30px;
   
@@ -426,12 +426,12 @@ h1, h2, h3 ,h4, h5, h6{
 
 
 #comment_container ol.commentlist li.comment .comment-content a{
-  background-color:#EE0055;
+  background-color:#444;
   color: #fff;
 }
 
 #comment_container ol.commentlist li.comment .comment-content a:hover{
-  background-color:#000;
+  background-color:#EE0055;
   color: #fff;
 }
 
