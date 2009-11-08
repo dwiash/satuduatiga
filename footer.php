@@ -1,10 +1,6 @@
 				</div>
 			</div>
 			
-			<div id="R">
-			</div>
-	
-			
 			
 			<div class="clear"></div>
 		</div>
