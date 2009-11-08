@@ -31,7 +31,7 @@
 						Adalah seorang mahasiswa tingkat akhir pada <a href="http://cs.upi.edu">Program Study Ilmu Komputer UPI Bandung</a>, freelance web developer dan <em>kalo-lagi-bener-bener-bener-mood</em> bloger.
 					</p>
 					<p>
-						Anda dapat melihat biodata serta <em>CV</em> saya di <a href="#">LinkedIn</a>. 
+						Anda dapat melihat biodata serta <em>CV</em> saya di <a href="http://id.linkedin.com/in/dwiasharialdy">LinkedIn</a>. 
 						Mengikuti aktifitas saya di <a href="http://facebook.com/dwiasharialdy">Facebook</a> atau <a href="http://twitter.com/dwiasharialdy">Twitter</a>.
 						Melihat <em>bookmark</em> saya melalui <a href="http://diigo.com/user/dwiasharialdy">Diigo</a>.
 						Atau mengunjungi repositori kode program saya di <a href="http://github.com/dwiasharialdy">Github</a>.
