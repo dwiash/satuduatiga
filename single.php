@@ -26,6 +26,10 @@
 				<?php the_content(); ?>
 				
 				
+				<div id="comment_container">
+				  <?php comments_template(); ?>
+				</div>
+				
 	<?php endwhile; else: ?>
 	      <div id="error-404">
 	        THE <br />
