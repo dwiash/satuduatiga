@@ -459,6 +459,16 @@ h1, h2, h3 ,h4, h5, h6{
   padding: 0;
 }
 
+#comment_container #respond a{
+  background-color: #EE0055;
+  color: #fff;
+  padding: 2px 4px;
+}
+
+#comment_container #respond a:hover{
+  background-color: #333;
+}
+
 #comment_container #respond #author,
 #comment_container #respond #email,
 #comment_container #respond #url{
